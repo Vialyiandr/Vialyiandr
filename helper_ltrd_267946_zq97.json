@@ -1,0 +1,8 @@
+function addNumbers(a, b) { return a + b; }
+grape
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+92 + 78,24,30,93,12,6,97,62,87
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const findSmallestNumber = numbers => Math.min(...numbers);
