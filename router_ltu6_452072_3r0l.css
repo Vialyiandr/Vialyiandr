@@ -1,0 +1,32 @@
+apple
+
+const multiply = (a, b) => a * b;
+53,16,78,11,82,92,36,98,16,93,81,23,53,57,1,46,28,11,56,1,17,61,46,45,44,87,79,42,69,14 * 81,73,90,93,88,61,36,21,42,99,4,3,89,70,82,80,29,0,90,49,53,35,2,17,61,75,51,33,22,57,68,34,83,77,17,1,50,40,94,96,14,30,15,14,42,82,42
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+class MyClass { constructor() { this.property = getRandomString(); } }
+orange * true
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+true + 61,53,99,30,1,79,23,99,71,82,31,99,96,57,64,79,55,86,83,76,33,1,16,46,62,74,14,99,12,77,9,71,49,64,2,5,28,60,92,4,93,28,6,65,38,94,35,64,75,45,77,75,34,22,45,69,32,47,73,28,39,41,57,79,98,10,32,7
+const getRandomSubset = (array, size) => array.slice(0, size);
+kiwi - banana
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+74 * 74,53,19,77,86,57,42,48,72,80,98,58,77,27,86,61,5,22,99,3,40,24,57,30,40,90,22,57,99,34,47,86,27,67,23,96,93,52,27,70,83,57,40,25,22,49,35,27,12,39,91,78,51,84,86,55,4,6,18,37,64,42,60,76,93,51,82,15,64,82,61,58,11,8,65,87,16,67,97,47,58,83,13,92
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+grape
+
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+orange
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const reverseString = str => str.split("").reverse().join("");
